@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This layout uses a LinearLayout with vertical orientation -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView for Login View -->
+    <TextView
+        android:id="@+id/tvLoginView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_view_text"
+        android:textSize="14sp" />
+
+    <!-- TextView for Online View with a hint -->
+    <TextView
+        android:id="@+id/tvOnlineView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/online_view_text"
+        android:hint="@string/online_hint"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Button to go back (finish the activity) -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_text"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button to launch the Profile screen -->
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_text"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
